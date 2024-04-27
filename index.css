@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+input:focus {
+    border-color: #1278e4; /* Change border color on focus */
+  }
+input{
+    padding: 10px;
+    
+    border: 1px solid #3d3d3d;
+    border-radius: 7px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    /* display: inline-block !important; */
+}
+p{
+    margin-bottom: 16px;
+}
+button{
+    cursor: pointer; /* Add pointer cursor on hover */
+    background-color: #fff;
+    border: 1px solid #242222;
+    width: fit-content; /* Adjust width based on button's content */
+    padding: 8px 60px;
+    border-radius: 7px;
+    margin-top: 7px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out/* Smooth transition on color change */
+}
+button:hover {
+    background-color: #007bff; /* Darker background color on hover */
+    color: antiquewhite;
+}
